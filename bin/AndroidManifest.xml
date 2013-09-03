@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.buding.coupontest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <uses-sdk android:minSdkVersion="12" />
+    <!-- 有时textview或者button的click方法会失效 -->
+    <supports-screens android:anyDensity="true" />
+    <!-- 使用Instrumentation事件需要声明此权限 -->
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="cn.buding.coupon" />
+</manifest>
