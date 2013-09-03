@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="android-support-v4.jar" sourcepath="D:/robotium/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/robotium/4.1/robotium-solo-4.1.jar" sourcepath="D:/robotium/4.1/robotium-solo-4.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/robotium/4.1/robotium-solo-4.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/TMTS/athena-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/TMTS/tmts.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
