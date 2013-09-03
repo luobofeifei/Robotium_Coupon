@@ -35,6 +35,5 @@ public class ScreenHelper {
 	public class Coords {
 		public static final float SCREEN_WIDTH = 540.0f;
 		public static final float SCREEN_HEIGHT = 960.0f;
-		public int a = 0;
 	}
 }
